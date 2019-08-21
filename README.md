@@ -14,3 +14,5 @@ There are two web framework in python:
  pip install Django==2.2.4
  
  Latest version when am writing this is 2.2.4
+ 
+ Django tutorial: https://realpython.com/tutorials/django/
