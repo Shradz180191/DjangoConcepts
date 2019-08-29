@@ -16,3 +16,6 @@ There are two web framework in python:
  Latest version when am writing this is 2.2.4
  
  Django tutorial: https://realpython.com/tutorials/django/
+ 
+ check version : 
+ $ python -m django --version
