@@ -19,3 +19,5 @@ There are two web framework in python:
  
  check version : 
  $ python -m django --version
+
+Django supports many different database servers and is officially supported with PostgreSQL, MySQL, Oracle and SQLite.
