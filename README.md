@@ -21,3 +21,12 @@ There are two web framework in python:
  $ python -m django --version
 
 Django supports many different database servers and is officially supported with PostgreSQL, MySQL, Oracle and SQLite.
+
+Applications¶
+Django contains a registry of installed applications that stores configuration and provides introspection. It also maintains a list of available models.
+
+This registry is simply called apps and it’s available in django.apps:
+
+from django.apps import apps
+apps.get_app_config('admin').verbose_name
+- 'Administration'
